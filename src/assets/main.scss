@@ -1,0 +1,39 @@
+$white: #ffffff;
+$light-grey: #f0f3f7;
+$grey: #d1d5da;
+$dark-grey: #24292e;
+$light-black: #1f1e1e;
+$light-blue: #0366d6;
+$blue: #0056b3;
+$dark-blue: #044289;
+$red: #d73a49;
+
+$small-padding: 10px;
+$medium-padding: 20px;
+$small-margin: 10px;
+$medium-margin: 20px;
+
+#app {
+  @media screen and (max-width: 600px) {
+    min-height: 100vh;
+    min-width: 100%;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: $dark-grey;
+  background: $light-black;
+  line-height: 1.6;
+  font-family: Inter, Roboto, Oxygen, sans-serif;
+  font-size: 15px;
+}
